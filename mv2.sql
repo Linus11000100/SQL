@@ -5,7 +5,7 @@ CREATE OR REPLACE DATABASE mv2;
 USE mv2;
 --Tabellen erzeugen
 --Region
-/*CREATE TABLE region(
+CREATE TABLE region(
 	r_id INT UNSIGNED AUTO_INCREMENT,
 	region_name VARCHAR(30) NOT NULL,
 	PRIMARY KEY(r_id)
@@ -115,7 +115,7 @@ INSERT INTO land(land_name,r_id) VALUES ("Marokko",4);
 INSERT INTO land(land_name,r_id) VALUES ("Algerien",4);
 INSERT INTO land(land_name,r_id) VALUES ("Aserbaidschan",5);
 INSERT INTO land(land_name,r_id) VALUES ("Russland",5);
-*/
+
 INSERT INTO standort(stadt,l_id) VALUES ("Paris",2);
 INSERT INTO standort(stadt,l_id) VALUES ("Marseille",2);
 INSERT INTO standort(stadt,l_id) VALUES ("Seoul",3);
